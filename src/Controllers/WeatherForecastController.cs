@@ -36,6 +36,7 @@ namespace DockerApi.Controllers
         }
 
         [HttpGet]
+        [Route("GetUnique")]
         public WeatherForecast GetUnique()
         {
             var rng = new Random();
